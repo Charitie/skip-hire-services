@@ -24,7 +24,7 @@ A modern web application for managing and displaying skip hire services. Built w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/skip-hire-services.git
+   git clone https://github.com/Charitie/skip-hire-services.git
    cd skip-hire-services
    ```
 
