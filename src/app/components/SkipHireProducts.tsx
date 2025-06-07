@@ -7,6 +7,7 @@ import Header from "./Header";
 import Filters from "./Filters";
 import SkipCard from "./SkipCard";
 import Pagination from "./Pagination";
+import BottomSummary from "./BottomSummary";
 
 const SkipHireProducts: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -82,7 +83,7 @@ const SkipHireProducts: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 text-gray-900">
       <Header
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
@@ -136,6 +137,8 @@ const SkipHireProducts: React.FC = () => {
         {/* Pagination */}
         <Pagination currentPage={currentPage} totalPages={totalPages} setCurrentPage={setCurrentPage} />
       </div>
+      {/* Bottom Summary   */}
+      <BottomSummary selectedSkip={selectedSkip} calculateFinalPrice={calculateTotalPrice} />
     </div>
   );
 };
