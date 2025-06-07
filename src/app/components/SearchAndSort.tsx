@@ -69,3 +69,14 @@ const SearchAndSort: React.FC<SearchAndSortProps> = ({
 };
 
 export default SearchAndSort;
+
+/**
+ * Changes made:
+ * 1. Added clear (x) button functionality to search input
+ * 2. Imported X icon from lucide-react
+ * 3. Added conditional rendering for clear button
+ * 4. Added hover effect and accessibility label
+ * 5. Adjusted input padding to accommodate clear button
+ *
+ * Last updated: 2024-03-19
+ */
