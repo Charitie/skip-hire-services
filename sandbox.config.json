@@ -1,0 +1,17 @@
+{
+  "template": "next",
+  "container": {
+    "node": "18"
+  },
+  "files": {
+    "src/app/page.tsx": {
+      "isBinary": false
+    },
+    "src/app/data.ts": {
+      "isBinary": false
+    },
+    "src/app/types.ts": {
+      "isBinary": false
+    }
+  }
+}
